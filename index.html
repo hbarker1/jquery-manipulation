@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery HTML manipulation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"
+        integrity="sha256-aan9tQnm7lVach/6JxYyrQRlheajRD+UBDwwWo3tAHQ=" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="section has-background-dark has-text-white">
+        <div class="columns">
+            <div class="column" id="elementToAddTo">
+                I am the element we are adding to.
+            </div>
+
+            <div class="column">
+                <button class="button is-primary" id="buttonAppend">Append</button>
+                <button class="button is-warning" id="buttonPrepend">Prepend</button>
+                <button class="button is-success" id="buttonBefore">Before</button>
+                <button class="button is-danger" id="buttonAfter">After</button>
+            </div>
+        </div>
+    </section>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
